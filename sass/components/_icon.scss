@@ -1,0 +1,31 @@
+.icon {
+    display: block;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    transition: fill $time-transition $tfunction-transition;
+
+    &--profit-size {
+        width: 70px;
+        height: 70px;
+        margin: 0 auto;
+    }
+
+    &--socialnet-size {
+        width: 20px;
+        height: 20px;
+        fill: #afb1b8;
+    }
+
+    &--client-size {
+        width: 41px;
+        height: 46px;
+        fill: #afb1b8;
+    }
+
+    &--btn-size {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+    }
+}

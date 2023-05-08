@@ -1,0 +1,23 @@
+.socialnet {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.socialnet__icon {
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    margin: 0 5px 30px;
+    border-radius: 50%;
+    background-color: var(--white-color);
+    transition: background-color $time-transition $tfunction-transition;
+
+    &:hover {
+        background-color: $blue-color;
+    }
+
+    &:hover > svg {
+        fill: $white-color;
+    }
+}

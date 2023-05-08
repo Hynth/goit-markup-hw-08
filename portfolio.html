@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Normalizer  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+
+    <!-- Owner's Styles  -->
+    <link rel="stylesheet" href="./css/main.min.css" />
+
+    <!-- Font's Styles  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+  </head>
+  <body>
+    <header class="border">
+      <div class="header container">
+        <nav class="nav">
+          <a class="title" href="#">WebStudio</a>
+          <ul class="list nav__list">
+            <li class="nav__item">
+              <a class="link" href="./index.html">Estudio</a>
+            </li>
+            <li class="nav__item">
+              <a class="page link" href="./portfolio.html">Portafolio</a>
+            </li>
+            <li class="nav__item">
+              <a class="link" href="#">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="list contact">
+          <li class="contact__item">
+            <svg class="icon contact__icon pointer">
+              <use xlink:href="./images/icons.svg#icon-sobre"></use>
+            </svg>
+            <a class="contact__info" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contact__item">
+            <svg class="icon contact__icon pointer">
+              <use xlink:href="./images/icons.svg#icon-smarthpone"></use>
+            </svg>
+            <a class="contact__info" href="tel:+525555296000"
+              >+52 55 5529 6000</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="container container--margin">
+      <nav class="nvportfolio">
+        <button class="nvportfolio__btn pointer" type="button">Todo</button>
+        <button class="nvportfolio__btn pointer" type="button">
+          Sitios-Web
+        </button>
+        <button class="nvportfolio__btn pointer" type="button">
+          Aplicaciones
+        </button>
+        <button class="nvportfolio__btn pointer" type="button">Diseño</button>
+        <button class="nvportfolio__btn pointer" type="button">
+          Marketing
+        </button>
+      </nav>
+
+      <ul class="list cards">
+        <li class="pointer cards__item">
+          <div class="cards__overlay">
+            <img src="./images/tecnoduck.jpg" alt="Tecnoduck" width="370" />
+            <div class="overlay-portfolio">
+              <p class="overlay-desc-portfolio">
+                Tecnoduck es una plataforma de distribución de coronavirus de
+                última generación. Las compañías usan esta plataforma para el
+                espionaje digital y los ataques a los servidores seguros de la
+                competencia.
+              </p>
+            </div>
+          </div>
+          <h3 class="cards__name">Tecnoduck</h3>
+          <p class="cards__desc">Sitio-web</p>
+        </li>
+        <li class="pointer cards__item">
+          <div class="cards__overlay">
+            <img src="./images/nba_players.jpg" alt="Poster NBA" width="370" />
+            <div class="overlay-portfolio"></div>
+          </div>
+          <h3 class="cards__name">
+            Póster de Nueva Orleans vs Estrella Dorada
+          </h3>
+          <p class="cards__desc">Diseño</p>
+        </li>
+        <li class="pointer cards__item">
+          <div class="cards__overlay">
+            <img
+              src="./images/restaurant_seafood.jpg"
+              alt="Restaurante SeaFood"
+              width="370"
+            />
+            <div class="overlay-portfolio"></div>
+          </div>
+          <h3 class="cards__name">Restaurante SeaFood</h3>
+          <p class="cards__desc">Aplicaciones</p>
+        </li>
+        <li class="pointer cards__item">
+          <div class="cards__overlay">
+            <img src="./images/headphone.jpg" alt="Headphone" width="370" />
+            <div class="overlay-portfolio"></div>
+          </div>
+          <h3 class="cards__name">Proyecto Prime</h3>
+          <p class="cards__desc">Marketing</p>
+        </li>
+        <li class="pointer cards__item">
+          <div class="cards__overlay">
+            <img src="./images/two_boxes.jpg" alt="Dos cajas" width="370" />
+            <div class="overlay-portfolio"></div>
+          </div>
+          <h3 class="cards__name">Proyecto Cajas</h3>
+          <p class="cards__desc">Aplicaciones</p>
+        </li>
+        <li class="pointer cards__item">
+          <div class="cards__overlay">
+            <img src="./images/monitor.jpg" alt="Monitor" width="370" />
+            <div class="overlay-portfolio"></div>
+          </div>
+          <h3 class="cards__name">La inspiración no tiene límites</h3>
+          <p class="cards__desc">Sitio-web</p>
+        </li>
+        <li class="pointer cards__item">
+          <div class="cards__overlay">
+            <img src="./images/magazine.jpg" alt="Revista" width="370" />
+            <div class="overlay-portfolio"></div>
+          </div>
+          <h3 class="cards__name">Edición Limitada</h3>
+          <p class="cards__desc">Diseño</p>
+        </li>
+        <li class="pointer cards__item">
+          <div class="cards__overlay">
+            <img src="./images/label.jpg" alt="Etiqueta Lab" width="370" />
+            <div class="overlay-portfolio"></div>
+          </div>
+          <h3 class="cards__name">Proyecto LAB</h3>
+          <p class="cards__desc">Marketing</p>
+        </li>
+        <li class="pointer cards__item">
+          <div class="cards__overlay">
+            <img
+              src="./images/typing_computer.jpg"
+              alt="Portatil"
+              width="370"
+            />
+            <div class="overlay-portfolio"></div>
+          </div>
+          <h3 class="cards__name">Negocio en Crecimiento</h3>
+          <p class="cards__desc">Aplicaciones</p>
+        </li>
+      </ul>
+    </main>
+    <footer class="footer">
+      <section class="container footer--display">
+        <section class="footer__contact">
+          <a class="title" href="./index.html">WebStudio</a>
+          <address class="footer__address">
+            <ul class="list">
+              <li>
+                <a
+                  class="footer__text footer__text--white"
+                  href="https://goo.gl/maps/GB3hHYx3USkWvwVn7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer__text footer__text--gray"
+                  href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer__text footer__text--gray"
+                  href="tel:+525555296000"
+                  >+52 55 5529 6000</a
+                >
+              </li>
+            </ul>
+          </address>
+        </section>
+        <section class="footer__socialnet">
+          <p class="footer__info">ENCUENTRENOS EN</p>
+          <section class="socialnet">
+            <div class="footer__icon">
+              <svg class="icon icon--socialnet-size">
+                <use xlink:href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </div>
+            <div class="footer__icon">
+              <svg class="icon icon--socialnet-size">
+                <use xlink:href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </div>
+
+            <div class="footer__icon">
+              <svg class="icon icon--socialnet-size">
+                <use xlink:href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </div>
+
+            <div class="footer__icon">
+              <svg class="icon icon--socialnet-size">
+                <use xlink:href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </div>
+          </section>
+        </section>
+        <section class="footer__subscription">
+          <form class="footer__form" name="subscription" autocomplete="on">
+            <label for="email" class="footer__info"
+              >SUSCRÍBASE AL BOLETÍN INFORMATIVO</label
+            >
+            <div class="footer__email">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Correo electrónico"
+                class="footer__input"
+                required
+              />
+              <button type="submit" class="footer__submit pointer">
+                Suscríbase
+                <svg class="icon icon--btn-size">
+                  <use xlink:href="./images/icons.svg#icon-enviar"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </section>
+      </section>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+.slider {
+    background-image: url('../images/background_main.jpg');
+    background-size: cover;
+
+    &__overlay {
+        background-color: rgba(47, 48, 58, 0.4);
+    }
+
+    &__data {
+        padding: 200px 0;
+    }
+
+    &__title {
+        width: 55%;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        color: $white-color;
+        text-align: center;
+        margin: 0 auto 30px auto;
+    }
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    border: none;
+    color: $white-color;
+    background-color: $blue-color;
+    text-decoration: none;
+    padding: 10px 60px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+}
